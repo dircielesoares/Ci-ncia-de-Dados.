@@ -1,4 +1,5 @@
 const getCSS = (variavel) => {
+  const bodyStyles = getComputedStyle(document.body)
     return getComputedStyle(document.body).getPropertyValue(variavel)
   };
   
